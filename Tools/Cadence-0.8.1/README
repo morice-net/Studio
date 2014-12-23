@@ -1,0 +1,10 @@
+# ---  README for Cadence - Linux build ---
+
+Cadence is a set of tools useful for audio production.
+It's being developed by falkTX, using Python3 and Qt4 (and some C++ where needed).
+
+This is the Linux build of Cadence.
+It has been made to work in all distributions and only requires JACK and Qt4 (4.6 or higher).
+
+For a complete and updated description of these tools, please check:
+http://kxstudio.sourceforge.net/KXStudio:Applications
