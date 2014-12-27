@@ -21,14 +21,14 @@
 
   <Data>
    <Active>Yes</Active>
-   <Volume>1.27</Volume>
+   <Volume>0.999998</Volume>
    <ControlChannel>1</ControlChannel>
    <Options>0x1e4</Options>
 
    <Parameter>
     <Index>0</Index>
     <Name>Waveform</Name>
-    <Value>0.464599996805191</Value>
+    <Value>1</Value>
     <MidiCC>70</MidiCC>
     <MidiChannel>1</MidiChannel>
    </Parameter>
@@ -36,7 +36,7 @@
    <Parameter>
     <Index>1</Index>
     <Name>Tuning</Name>
-    <Value>1.10000002384186</Value>
+    <Value>0.5</Value>
     <MidiCC>75</MidiCC>
     <MidiChannel>1</MidiChannel>
    </Parameter>
@@ -44,7 +44,7 @@
    <Parameter>
     <Index>2</Index>
     <Name>Cutoff Freq</Name>
-    <Value>11.5999994277954</Value>
+    <Value>20</Value>
     <MidiCC>74</MidiCC>
     <MidiChannel>1</MidiChannel>
    </Parameter>
@@ -52,7 +52,7 @@
    <Parameter>
     <Index>3</Index>
     <Name>VCF Resonance</Name>
-    <Value>0.446499973535538</Value>
+    <Value>0.523355007171631</Value>
     <MidiCC>71</MidiCC>
     <MidiChannel>1</MidiChannel>
    </Parameter>
@@ -60,7 +60,7 @@
    <Parameter>
     <Index>4</Index>
     <Name>Env Mod</Name>
-    <Value>0.300000011920929</Value>
+    <Value>0.547399997711182</Value>
     <MidiCC>1</MidiCC>
     <MidiChannel>1</MidiChannel>
    </Parameter>
@@ -68,7 +68,7 @@
    <Parameter>
     <Index>5</Index>
     <Name>Decay</Name>
-    <Value>0.00040106353117153</Value>
+    <Value>0.00019999900541734</Value>
     <MidiCC>72</MidiCC>
     <MidiChannel>1</MidiChannel>
    </Parameter>
@@ -76,7 +76,7 @@
    <Parameter>
     <Index>6</Index>
     <Name>Accent</Name>
-    <Value>0.300000011920929</Value>
+    <Value>0</Value>
     <MidiCC>76</MidiCC>
     <MidiChannel>1</MidiChannel>
    </Parameter>
@@ -84,7 +84,7 @@
    <Parameter>
     <Index>7</Index>
     <Name>Volume</Name>
-    <Value>1</Value>
+    <Value>0.487100005149841</Value>
     <MidiCC>7</MidiCC>
     <MidiChannel>1</MidiChannel>
    </Parameter>
@@ -96,7 +96,19 @@
 
  <Patchbay>
   <Connection>
-   <Source>nekobee DSSI plugin:Output</Source>
+   <Source>system:capture_1</Source>
+   <Target>PulseAudio JACK Source:front-left</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_2</Source>
+   <Target>PulseAudio JACK Source:front-right</Target>
+  </Connection>
+  <Connection>
+   <Source>PulseAudio JACK Sink:front-left</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>PulseAudio JACK Sink:front-right</Source>
    <Target>system:playback_2</Target>
   </Connection>
   <Connection>
@@ -104,20 +116,8 @@
    <Target>system:playback_1</Target>
   </Connection>
   <Connection>
-   <Source>nekobee DSSI plugin:Output</Source>
-   <Target>M:in1</Target>
-  </Connection>
-  <Connection>
-   <Source>nekobee DSSI plugin:Output</Source>
-   <Target>M:in2</Target>
-  </Connection>
-  <Connection>
-   <Source>nekobee DSSI plugin:Output</Source>
-   <Target>PulseAudio JACK Source:front-left</Target>
-  </Connection>
-  <Connection>
-   <Source>nekobee DSSI plugin:Output</Source>
-   <Target>PulseAudio JACK Source:front-right</Target>
+   <Source>jack-keyboard:midi_out</Source>
+   <Target>nekobee DSSI plugin:events-in</Target>
   </Connection>
  </Patchbay>
 </CARLA-PROJECT>
