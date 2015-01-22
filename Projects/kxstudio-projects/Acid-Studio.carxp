@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE CARLA-PROJECT>
+<CARLA-PROJECT VERSION='2.0'>
+ <EngineSettings>
+  <ForceStereo>false</ForceStereo>
+  <PreferPluginBridges>false</PreferPluginBridges>
+  <PreferUiBridges>true</PreferUiBridges>
+  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+  <MaxParameters>200</MaxParameters>
+  <UIBridgesTimeout>4000</UIBridgesTimeout>
+ </EngineSettings>
+
+ <!-- MIDI File -->
+ <Plugin>
+  <Info>
+   <Type>INTERNAL</Type>
+   <Name>MIDI File</Name>
+   <Label>midifile</Label>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <CustomData>
+    <Type>http://kxstudio.sf.net/ns/carla/string</Type>
+    <Key>file</Key>
+    <Value>/home/music/Downloads/adam_levine-lost_stars.mid</Value>
+   </CustomData>
+  </Data>
+ </Plugin>
+
+ <!-- nekobee DSSI plugin -->
+ <Plugin>
+  <Info>
+   <Type>DSSI</Type>
+   <Name>nekobee DSSI plugin</Name>
+   <Binary>/usr/local/lib/dssi/nekobee.so</Binary>
+   <Label>nekobee</Label>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <Volume>1.27</Volume>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1e4</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Waveform</Name>
+    <Value>0.557799994945526</Value>
+    <MidiCC>70</MidiCC>
+    <MidiChannel>1</MidiChannel>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Tuning</Name>
+    <Value>0.999949991703033</Value>
+    <MidiCC>75</MidiCC>
+    <MidiChannel>1</MidiChannel>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Cutoff Freq</Name>
+    <Value>21.1679992675781</Value>
+    <MidiCC>74</MidiCC>
+    <MidiChannel>1</MidiChannel>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>VCF Resonance</Name>
+    <Value>0.799995005130768</Value>
+    <MidiCC>71</MidiCC>
+    <MidiChannel>1</MidiChannel>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Env Mod</Name>
+    <Value>0.300000011920929</Value>
+    <MidiCC>1</MidiCC>
+    <MidiChannel>1</MidiChannel>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Decay</Name>
+    <Value>0.00019999900541734</Value>
+    <MidiCC>72</MidiCC>
+    <MidiChannel>1</MidiChannel>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Accent</Name>
+    <Value>0.300000011920929</Value>
+    <MidiCC>76</MidiCC>
+    <MidiChannel>1</MidiChannel>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Volume</Name>
+    <Value>0.75</Value>
+    <MidiCC>7</MidiCC>
+    <MidiChannel>1</MidiChannel>
+   </Parameter>
+
+   <CurrentMidiBank>1</CurrentMidiBank>
+   <CurrentMidiProgram>1</CurrentMidiProgram>
+  </Data>
+ </Plugin>
+
+ <Patchbay>
+  <Connection>
+   <Source>system:capture_1</Source>
+   <Target>PulseAudio JACK Source:front-left</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_2</Source>
+   <Target>PulseAudio JACK Source:front-right</Target>
+  </Connection>
+  <Connection>
+   <Source>PulseAudio JACK Sink:front-left</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>PulseAudio JACK Sink:front-right</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>nekobee DSSI plugin:Output</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>nekobee DSSI plugin:Output</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>MIDI File:events-out</Source>
+   <Target>nekobee DSSI plugin:events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Hydrogen:out_L</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>Hydrogen:out_R</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+ </Patchbay>
+</CARLA-PROJECT>
