@@ -1,7 +1,7 @@
 <!DOCTYPE qtractorSession>
-<session version="Qtractor 0.6.3" name="AcidComposition">
+<session version="Qtractor 0.6.5.13git.52d1c9" name="AcidComposition">
  <properties>
-  <directory>/home/music/Music/Studio/Projects/Qtractor</directory>
+  <directory>/home/jartaud/Music/Studio/Projects/Qtractor</directory>
   <description>Audio file import "Clap01.wav" on Mar 02 2015 10:24:34.
 Audio file import "Clap02.wav" on Mar 02 2015 10:24:34.
 Audio file import "Clap03.wav" on Mar 02 2015 10:24:34.
@@ -113,8 +113,8 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
   <beat-divisor>2</beat-divisor>
  </properties>
  <state>
-  <loop-start>561103</loop-start>
-  <loop-end>5561380</loop-end>
+  <loop-start>635586</loop-start>
+  <loop-end>5720276</loop-end>
   <punch-in>0</punch-in>
   <punch-out>0</punch-out>
  </state>
@@ -278,16 +278,7 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
      <audio-output-bus>0</audio-output-bus>
      <audio-output-auto-connect>1</audio-output-auto-connect>
     </input-plugins>
-    <input-connects>
-     <connect index="0">
-      <client>128:jack_midi</client>
-      <port>0:port</port>
-     </connect>
-     <connect index="0">
-      <client>129:a2jmidid</client>
-      <port>0:port</port>
-     </connect>
-    </input-connects>
+    <input-connects/>
     <output-gain>1</output-gain>
     <output-panning>0</output-panning>
     <output-controllers/>
@@ -296,16 +287,10 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
      <audio-output-bus>0</audio-output-bus>
      <audio-output-auto-connect>1</audio-output-auto-connect>
     </output-plugins>
-    <output-connects>
-     <connect index="0">
-      <client>128:jack_midi</client>
-      <port>0:port</port>
-     </connect>
-     <connect index="0">
-      <client>129:a2jmidid</client>
-      <port>0:port</port>
-     </connect>
-    </output-connects>
+    <output-connects/>
+    <midi-map>
+     <midi-patch channel="0"/>
+    </midi-map>
    </midi-bus>
   </midi-engine>
  </devices>
@@ -315,8 +300,8 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
    <horizontal-zoom>10</horizontal-zoom>
    <vertical-zoom>100</vertical-zoom>
    <snap-per-beat>4</snap-per-beat>
-   <edit-head>5432276</edit-head>
-   <edit-tail>5481931</edit-tail>
+   <edit-head>635586</edit-head>
+   <edit-tail>5720276</edit-tail>
   </view>
   <track type="audio" name="ClosedHats">
    <properties>
@@ -1829,23 +1814,7 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
     <clip name="Closedhat03">
      <properties>
       <name>Closedhat03</name>
-      <start>2467862</start>
-      <offset>0</offset>
-      <length>22159</length>
-      <gain>1</gain>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-     </audio-clip>
-    </clip>
-    <clip name="Closedhat03">
-     <properties>
-      <name>Closedhat03</name>
-      <start>2502621</start>
+      <start>2472828</start>
       <offset>0</offset>
       <length>22158</length>
       <gain>1</gain>
@@ -1864,6 +1833,22 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <start>2507586</start>
       <offset>0</offset>
       <length>22159</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Closedhat03">
+     <properties>
+      <name>Closedhat03</name>
+      <start>2512552</start>
+      <offset>0</offset>
+      <length>22158</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
@@ -2949,22 +2934,6 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
     <clip name="Closedhat03">
      <properties>
       <name>Closedhat03</name>
-      <start>4305104</start>
-      <offset>0</offset>
-      <length>22158</length>
-      <gain>1</gain>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-     </audio-clip>
-    </clip>
-    <clip name="Closedhat03">
-     <properties>
-      <name>Closedhat03</name>
       <start>4329931</start>
       <offset>0</offset>
       <length>22159</length>
@@ -2997,41 +2966,9 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
     <clip name="Closedhat03">
      <properties>
       <name>Closedhat03</name>
-      <start>4339862</start>
-      <offset>0</offset>
-      <length>22159</length>
-      <gain>1</gain>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-     </audio-clip>
-    </clip>
-    <clip name="Closedhat03">
-     <properties>
-      <name>Closedhat03</name>
       <start>4374621</start>
       <offset>0</offset>
       <length>22158</length>
-      <gain>1</gain>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-     </audio-clip>
-    </clip>
-    <clip name="Closedhat03">
-     <properties>
-      <name>Closedhat03</name>
-      <start>4384552</start>
-      <offset>0</offset>
-      <length>22159</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
@@ -3064,22 +3001,6 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <start>4414345</start>
       <offset>0</offset>
       <length>22159</length>
-      <gain>1</gain>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-     </audio-clip>
-    </clip>
-    <clip name="Closedhat03">
-     <properties>
-      <name>Closedhat03</name>
-      <start>4419311</start>
-      <offset>0</offset>
-      <length>22158</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
@@ -3589,55 +3510,7 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
     <clip name="Closedhat03">
      <properties>
       <name>Closedhat03</name>
-      <start>4935725</start>
-      <offset>0</offset>
-      <length>22158</length>
-      <gain>1</gain>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-     </audio-clip>
-    </clip>
-    <clip name="Closedhat03">
-     <properties>
-      <name>Closedhat03</name>
       <start>4940690</start>
-      <offset>0</offset>
-      <length>22159</length>
-      <gain>1</gain>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-     </audio-clip>
-    </clip>
-    <clip name="Closedhat03">
-     <properties>
-      <name>Closedhat03</name>
-      <start>4955586</start>
-      <offset>0</offset>
-      <length>22159</length>
-      <gain>1</gain>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-     </audio-clip>
-    </clip>
-    <clip name="Closedhat03">
-     <properties>
-      <name>Closedhat03</name>
-      <start>4960552</start>
       <offset>0</offset>
       <length>22159</length>
       <gain>1</gain>
@@ -3701,22 +3574,6 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
     <clip name="Closedhat03">
      <properties>
       <name>Closedhat03</name>
-      <start>4980414</start>
-      <offset>0</offset>
-      <length>22159</length>
-      <gain>1</gain>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-     </audio-clip>
-    </clip>
-    <clip name="Closedhat03">
-     <properties>
-      <name>Closedhat03</name>
       <start>5010207</start>
       <offset>0</offset>
       <length>22159</length>
@@ -3733,55 +3590,7 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
     <clip name="Closedhat03">
      <properties>
       <name>Closedhat03</name>
-      <start>5015173</start>
-      <offset>0</offset>
-      <length>22158</length>
-      <gain>1</gain>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-     </audio-clip>
-    </clip>
-    <clip name="Closedhat03">
-     <properties>
-      <name>Closedhat03</name>
       <start>5020138</start>
-      <offset>0</offset>
-      <length>22159</length>
-      <gain>1</gain>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-     </audio-clip>
-    </clip>
-    <clip name="Closedhat03">
-     <properties>
-      <name>Closedhat03</name>
-      <start>5035035</start>
-      <offset>0</offset>
-      <length>22159</length>
-      <gain>1</gain>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-     </audio-clip>
-    </clip>
-    <clip name="Closedhat03">
-     <properties>
-      <name>Closedhat03</name>
-      <start>5040000</start>
       <offset>0</offset>
       <length>22159</length>
       <gain>1</gain>
@@ -3832,22 +3641,6 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <start>5054897</start>
       <offset>0</offset>
       <length>22158</length>
-      <gain>1</gain>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-     </audio-clip>
-    </clip>
-    <clip name="Closedhat03">
-     <properties>
-      <name>Closedhat03</name>
-      <start>5059862</start>
-      <offset>0</offset>
-      <length>22159</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
@@ -4146,338 +3939,290 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <pitch-shift>1</pitch-shift>
      </audio-clip>
     </clip>
-    <clip name="Openhat10">
+    <clip name="Closedhat03">
      <properties>
-      <name>Openhat10</name>
+      <name>Closedhat03</name>
       <start>5248552</start>
       <offset>0</offset>
-      <length>22510</length>
+      <length>22158</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
       <time-stretch>1</time-stretch>
       <pitch-shift>1</pitch-shift>
      </audio-clip>
     </clip>
-    <clip name="Openhat10">
+    <clip name="Closedhat03">
      <properties>
-      <name>Openhat10</name>
+      <name>Closedhat03</name>
       <start>5253518</start>
       <offset>0</offset>
-      <length>22510</length>
+      <length>22158</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
       <time-stretch>1</time-stretch>
       <pitch-shift>1</pitch-shift>
      </audio-clip>
     </clip>
-    <clip name="Openhat10">
+    <clip name="Closedhat03">
      <properties>
-      <name>Openhat10</name>
+      <name>Closedhat03</name>
       <start>5258483</start>
       <offset>0</offset>
-      <length>22510</length>
+      <length>22159</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
       <time-stretch>1</time-stretch>
       <pitch-shift>1</pitch-shift>
      </audio-clip>
     </clip>
-    <clip name="Openhat10">
+    <clip name="Closedhat03">
      <properties>
-      <name>Openhat10</name>
-      <start>5268414</start>
-      <offset>0</offset>
-      <length>22510</length>
-      <gain>1</gain>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-     </audio-clip>
-    </clip>
-    <clip name="Openhat10">
-     <properties>
-      <name>Openhat10</name>
+      <name>Closedhat03</name>
       <start>5273379</start>
       <offset>0</offset>
-      <length>22511</length>
+      <length>22159</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
       <time-stretch>1</time-stretch>
       <pitch-shift>1</pitch-shift>
      </audio-clip>
     </clip>
-    <clip name="Openhat10">
+    <clip name="Closedhat03">
      <properties>
-      <name>Openhat10</name>
+      <name>Closedhat03</name>
       <start>5278345</start>
       <offset>0</offset>
-      <length>22511</length>
+      <length>22159</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
       <time-stretch>1</time-stretch>
       <pitch-shift>1</pitch-shift>
      </audio-clip>
     </clip>
-    <clip name="Openhat10">
+    <clip name="Closedhat03">
      <properties>
-      <name>Openhat10</name>
+      <name>Closedhat03</name>
+      <start>5283311</start>
+      <offset>0</offset>
+      <length>22158</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Closedhat03">
+     <properties>
+      <name>Closedhat03</name>
       <start>5288276</start>
       <offset>0</offset>
-      <length>22510</length>
+      <length>22159</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
       <time-stretch>1</time-stretch>
       <pitch-shift>1</pitch-shift>
      </audio-clip>
     </clip>
-    <clip name="Openhat10">
+    <clip name="Closedhat03">
      <properties>
-      <name>Openhat10</name>
+      <name>Closedhat03</name>
       <start>5293242</start>
       <offset>0</offset>
-      <length>22510</length>
+      <length>22158</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
       <time-stretch>1</time-stretch>
       <pitch-shift>1</pitch-shift>
      </audio-clip>
     </clip>
-    <clip name="Openhat10">
+    <clip name="Closedhat03">
      <properties>
-      <name>Openhat10</name>
+      <name>Closedhat03</name>
       <start>5298207</start>
       <offset>0</offset>
-      <length>22510</length>
+      <length>22159</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
       <time-stretch>1</time-stretch>
       <pitch-shift>1</pitch-shift>
      </audio-clip>
     </clip>
-    <clip name="Openhat10">
+    <clip name="Closedhat03">
      <properties>
-      <name>Openhat10</name>
-      <start>5308138</start>
-      <offset>0</offset>
-      <length>22511</length>
-      <gain>1</gain>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-     </audio-clip>
-    </clip>
-    <clip name="Openhat10">
-     <properties>
-      <name>Openhat10</name>
-      <start>5313104</start>
-      <offset>0</offset>
-      <length>22510</length>
-      <gain>1</gain>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-     </audio-clip>
-    </clip>
-    <clip name="Openhat10">
-     <properties>
-      <name>Openhat10</name>
-      <start>5318069</start>
-      <offset>0</offset>
-      <length>22511</length>
-      <gain>1</gain>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-     </audio-clip>
-    </clip>
-    <clip name="Openhat10">
-     <properties>
-      <name>Openhat10</name>
+      <name>Closedhat03</name>
       <start>5328000</start>
       <offset>0</offset>
-      <length>22510</length>
+      <length>22159</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
       <time-stretch>1</time-stretch>
       <pitch-shift>1</pitch-shift>
      </audio-clip>
     </clip>
-    <clip name="Openhat10">
+    <clip name="Closedhat03">
      <properties>
-      <name>Openhat10</name>
+      <name>Closedhat03</name>
       <start>5332966</start>
       <offset>0</offset>
-      <length>22510</length>
+      <length>22158</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
       <time-stretch>1</time-stretch>
       <pitch-shift>1</pitch-shift>
      </audio-clip>
     </clip>
-    <clip name="Openhat10">
+    <clip name="Closedhat03">
      <properties>
-      <name>Openhat10</name>
+      <name>Closedhat03</name>
       <start>5337931</start>
       <offset>0</offset>
-      <length>22511</length>
+      <length>22159</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
       <time-stretch>1</time-stretch>
       <pitch-shift>1</pitch-shift>
      </audio-clip>
     </clip>
-    <clip name="Openhat10">
+    <clip name="Closedhat03">
      <properties>
-      <name>Openhat10</name>
-      <start>5347862</start>
-      <offset>0</offset>
-      <length>22511</length>
-      <gain>1</gain>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-     </audio-clip>
-    </clip>
-    <clip name="Openhat10">
-     <properties>
-      <name>Openhat10</name>
+      <name>Closedhat03</name>
       <start>5352828</start>
       <offset>0</offset>
-      <length>22510</length>
+      <length>22159</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
       <time-stretch>1</time-stretch>
       <pitch-shift>1</pitch-shift>
      </audio-clip>
     </clip>
-    <clip name="Openhat10">
+    <clip name="Closedhat03">
      <properties>
-      <name>Openhat10</name>
+      <name>Closedhat03</name>
       <start>5357793</start>
       <offset>0</offset>
-      <length>22511</length>
+      <length>22159</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
       <time-stretch>1</time-stretch>
       <pitch-shift>1</pitch-shift>
      </audio-clip>
     </clip>
-    <clip name="Openhat10">
+    <clip name="Closedhat03">
      <properties>
-      <name>Openhat10</name>
-      <start>5387586</start>
+      <name>Closedhat03</name>
+      <start>5362759</start>
       <offset>0</offset>
-      <length>22511</length>
+      <length>22158</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
       <time-stretch>1</time-stretch>
       <pitch-shift>1</pitch-shift>
      </audio-clip>
     </clip>
-    <clip name="Openhat10">
+    <clip name="Closedhat03">
      <properties>
-      <name>Openhat10</name>
-      <start>5392552</start>
+      <name>Closedhat03</name>
+      <start>5367724</start>
       <offset>0</offset>
-      <length>22510</length>
+      <length>22159</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
       <time-stretch>1</time-stretch>
       <pitch-shift>1</pitch-shift>
      </audio-clip>
     </clip>
-    <clip name="Openhat10">
+    <clip name="Closedhat03">
      <properties>
-      <name>Openhat10</name>
-      <start>5397517</start>
+      <name>Closedhat03</name>
+      <start>5372690</start>
       <offset>0</offset>
-      <length>22511</length>
+      <length>22158</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Closedhat03">
+     <properties>
+      <name>Closedhat03</name>
+      <start>5377656</start>
+      <offset>0</offset>
+      <length>22158</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Closedhat03.wav</filename>
       <time-stretch>1</time-stretch>
       <pitch-shift>1</pitch-shift>
      </audio-clip>
@@ -4722,10 +4467,346 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <pitch-shift>1</pitch-shift>
      </audio-clip>
     </clip>
+    <clip name="Openhat10">
+     <properties>
+      <name>Openhat10</name>
+      <start>5506759</start>
+      <offset>0</offset>
+      <length>22510</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Openhat10">
+     <properties>
+      <name>Openhat10</name>
+      <start>5511724</start>
+      <offset>0</offset>
+      <length>22511</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Openhat10">
+     <properties>
+      <name>Openhat10</name>
+      <start>5516690</start>
+      <offset>0</offset>
+      <length>22510</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Openhat10">
+     <properties>
+      <name>Openhat10</name>
+      <start>5546483</start>
+      <offset>0</offset>
+      <length>22510</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Openhat10">
+     <properties>
+      <name>Openhat10</name>
+      <start>5551448</start>
+      <offset>0</offset>
+      <length>22511</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Openhat10">
+     <properties>
+      <name>Openhat10</name>
+      <start>5556414</start>
+      <offset>0</offset>
+      <length>22511</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Openhat10">
+     <properties>
+      <name>Openhat10</name>
+      <start>5566345</start>
+      <offset>0</offset>
+      <length>22510</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Openhat10">
+     <properties>
+      <name>Openhat10</name>
+      <start>5571311</start>
+      <offset>0</offset>
+      <length>22510</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Openhat10">
+     <properties>
+      <name>Openhat10</name>
+      <start>5576276</start>
+      <offset>0</offset>
+      <length>22510</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Openhat10">
+     <properties>
+      <name>Openhat10</name>
+      <start>5586207</start>
+      <offset>0</offset>
+      <length>22511</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Openhat10">
+     <properties>
+      <name>Openhat10</name>
+      <start>5591173</start>
+      <offset>0</offset>
+      <length>22510</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Openhat10">
+     <properties>
+      <name>Openhat10</name>
+      <start>5596138</start>
+      <offset>0</offset>
+      <length>22511</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Openhat10">
+     <properties>
+      <name>Openhat10</name>
+      <start>5606069</start>
+      <offset>0</offset>
+      <length>22510</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Openhat10">
+     <properties>
+      <name>Openhat10</name>
+      <start>5611035</start>
+      <offset>0</offset>
+      <length>22510</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Openhat10">
+     <properties>
+      <name>Openhat10</name>
+      <start>5616000</start>
+      <offset>0</offset>
+      <length>22511</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Openhat10">
+     <properties>
+      <name>Openhat10</name>
+      <start>5625931</start>
+      <offset>0</offset>
+      <length>22511</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Openhat10">
+     <properties>
+      <name>Openhat10</name>
+      <start>5630897</start>
+      <offset>0</offset>
+      <length>22510</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Openhat10">
+     <properties>
+      <name>Openhat10</name>
+      <start>5635862</start>
+      <offset>0</offset>
+      <length>22511</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Openhat10">
+     <properties>
+      <name>Openhat10</name>
+      <start>5645793</start>
+      <offset>0</offset>
+      <length>22511</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Openhat10">
+     <properties>
+      <name>Openhat10</name>
+      <start>5650759</start>
+      <offset>0</offset>
+      <length>22510</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Openhat10">
+     <properties>
+      <name>Openhat10</name>
+      <start>5655725</start>
+      <offset>0</offset>
+      <length>22510</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
     <clip name="Openhat06">
      <properties>
       <name>Openhat06</name>
-      <start>5541517</start>
+      <start>5700414</start>
       <offset>0</offset>
       <length>23049</length>
       <gain>1</gain>
@@ -4764,7 +4845,7 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
     <clip name="Snare06">
      <properties>
       <name>Snare06</name>
-      <start>576000</start>
+      <start>337655</start>
       <offset>0</offset>
       <length>23048</length>
       <gain>1</gain>
@@ -4780,7 +4861,39 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
     <clip name="Snare06">
      <properties>
       <name>Snare06</name>
-      <start>615724</start>
+      <start>412138</start>
+      <offset>0</offset>
+      <length>23048</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Snare06">
+     <properties>
+      <name>Snare06</name>
+      <start>496552</start>
+      <offset>0</offset>
+      <length>23048</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Snare06">
+     <properties>
+      <name>Snare06</name>
+      <start>576000</start>
       <offset>0</offset>
       <length>23048</length>
       <gain>1</gain>
@@ -4897,7 +5010,7 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <length>23048</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="InQuad">23048</fade-out>
+      <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
@@ -4929,7 +5042,7 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <length>23049</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
+      <fade-out type="InQuad">23049</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
@@ -5006,10 +5119,10 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <name>Snare06</name>
       <start>1171862</start>
       <offset>0</offset>
-      <length>19862</length>
+      <length>23048</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="InQuad">19820</fade-out>
+      <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
@@ -5038,10 +5151,10 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <name>Snare06</name>
       <start>1251310</start>
       <offset>0</offset>
-      <length>23049</length>
+      <length>19862</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
+      <fade-out type="InQuad">19820</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
@@ -5153,7 +5266,7 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <length>23049</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">23049</fade-out>
+      <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
@@ -5185,7 +5298,7 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <length>23048</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
+      <fade-out type="OutQuad">23048</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
@@ -5262,10 +5375,234 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <name>Snare06</name>
       <start>1807448</start>
       <offset>0</offset>
+      <length>23049</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Snare06">
+     <properties>
+      <name>Snare06</name>
+      <start>1847172</start>
+      <offset>0</offset>
+      <length>23049</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Snare06">
+     <properties>
+      <name>Snare06</name>
+      <start>1886897</start>
+      <offset>0</offset>
       <length>19862</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">19820</fade-out>
+      <fade-out type="OutQuad">19821</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Snare06">
+     <properties>
+      <name>Snare06</name>
+      <start>1926621</start>
+      <offset>0</offset>
+      <length>23048</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Snare06">
+     <properties>
+      <name>Snare06</name>
+      <start>1966345</start>
+      <offset>0</offset>
+      <length>23048</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Snare06">
+     <properties>
+      <name>Snare06</name>
+      <start>2006069</start>
+      <offset>0</offset>
+      <length>23048</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Snare06">
+     <properties>
+      <name>Snare06</name>
+      <start>2045793</start>
+      <offset>0</offset>
+      <length>23048</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Snare06">
+     <properties>
+      <name>Snare06</name>
+      <start>2085517</start>
+      <offset>0</offset>
+      <length>23049</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Snare06">
+     <properties>
+      <name>Snare06</name>
+      <start>2125242</start>
+      <offset>0</offset>
+      <length>23048</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Snare06">
+     <properties>
+      <name>Snare06</name>
+      <start>2164966</start>
+      <offset>0</offset>
+      <length>23048</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Snare06">
+     <properties>
+      <name>Snare06</name>
+      <start>2204690</start>
+      <offset>0</offset>
+      <length>23048</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Snare06">
+     <properties>
+      <name>Snare06</name>
+      <start>2244414</start>
+      <offset>0</offset>
+      <length>23048</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">23048</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Snare06">
+     <properties>
+      <name>Snare06</name>
+      <start>2284138</start>
+      <offset>0</offset>
+      <length>23048</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Snare06">
+     <properties>
+      <name>Snare06</name>
+      <start>2323862</start>
+      <offset>0</offset>
+      <length>23048</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Snare06">
+     <properties>
+      <name>Snare06</name>
+      <start>2363586</start>
+      <offset>0</offset>
+      <length>23049</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
@@ -5326,10 +5663,10 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <name>Snare06</name>
       <start>2522483</start>
       <offset>0</offset>
-      <length>23048</length>
+      <length>19862</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
+      <fade-out type="OutQuad">19821</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
@@ -5409,7 +5746,7 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <length>23048</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">23048</fade-out>
+      <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
@@ -5473,7 +5810,7 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <length>23048</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
+      <fade-out type="OutQuad">23048</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
@@ -5518,10 +5855,10 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <name>Snare06</name>
       <start>2999173</start>
       <offset>0</offset>
-      <length>19862</length>
+      <length>23048</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">19821</fade-out>
+      <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
@@ -5582,10 +5919,10 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <name>Snare06</name>
       <start>3158069</start>
       <offset>0</offset>
-      <length>23048</length>
+      <length>19862</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
+      <fade-out type="OutQuad">19820</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
@@ -5665,7 +6002,7 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <length>23048</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">23048</fade-out>
+      <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
@@ -5729,7 +6066,7 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <length>23049</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
+      <fade-out type="OutQuad">23049</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
@@ -5774,10 +6111,10 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <name>Snare06</name>
       <start>3634759</start>
       <offset>0</offset>
-      <length>19862</length>
+      <length>23048</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">19821</fade-out>
+      <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
@@ -5838,10 +6175,10 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <name>Snare06</name>
       <start>3793655</start>
       <offset>0</offset>
-      <length>23049</length>
+      <length>19862</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
+      <fade-out type="OutQuad">19820</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
@@ -5921,7 +6258,7 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <length>23048</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">23048</fade-out>
+      <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
@@ -5985,7 +6322,7 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <length>23048</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
+      <fade-out type="OutQuad">23048</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
@@ -6030,10 +6367,10 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <name>Snare06</name>
       <start>4270345</start>
       <offset>0</offset>
-      <length>19862</length>
+      <length>23049</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">19821</fade-out>
+      <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
@@ -6094,10 +6431,10 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <name>Snare06</name>
       <start>4429241</start>
       <offset>0</offset>
-      <length>23049</length>
+      <length>19863</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
+      <fade-out type="OutQuad">19821</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
@@ -6177,7 +6514,7 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <length>23048</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">23048</fade-out>
+      <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
@@ -6241,7 +6578,7 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <length>23048</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
+      <fade-out type="OutQuad">23048</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
@@ -6286,6 +6623,70 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <name>Snare06</name>
       <start>4905931</start>
       <offset>0</offset>
+      <length>23049</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Snare06">
+     <properties>
+      <name>Snare06</name>
+      <start>4945656</start>
+      <offset>0</offset>
+      <length>23048</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Snare06">
+     <properties>
+      <name>Snare06</name>
+      <start>4985379</start>
+      <offset>0</offset>
+      <length>23049</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Snare06">
+     <properties>
+      <name>Snare06</name>
+      <start>5025104</start>
+      <offset>0</offset>
+      <length>23048</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Snare06">
+     <properties>
+      <name>Snare06</name>
+      <start>5064828</start>
+      <offset>0</offset>
       <length>19862</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
@@ -6323,7 +6724,7 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
     <clip name="Clap03">
      <properties>
       <name>Clap03</name>
-      <start>576000</start>
+      <start>337655</start>
       <offset>0</offset>
       <length>40324</length>
       <gain>1</gain>
@@ -6339,7 +6740,39 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
     <clip name="Clap03">
      <properties>
       <name>Clap03</name>
-      <start>615724</start>
+      <start>412138</start>
+      <offset>0</offset>
+      <length>40324</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Clap03">
+     <properties>
+      <name>Clap03</name>
+      <start>496552</start>
+      <offset>0</offset>
+      <length>40324</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Clap03">
+     <properties>
+      <name>Clap03</name>
+      <start>576000</start>
       <offset>0</offset>
       <length>40324</length>
       <gain>1</gain>
@@ -6560,15 +6993,15 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <pitch-shift>1</pitch-shift>
      </audio-clip>
     </clip>
-    <clip name="Clap">
+    <clip name="Clap03">
      <properties>
-      <name>Clap</name>
+      <name>Clap03</name>
       <start>1171862</start>
       <offset>0</offset>
-      <length>19862</length>
+      <length>40324</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="InQuad">19862</fade-out>
+      <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
@@ -6592,15 +7025,15 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <pitch-shift>1</pitch-shift>
      </audio-clip>
     </clip>
-    <clip name="Clap03">
+    <clip name="Clap">
      <properties>
-      <name>Clap03</name>
+      <name>Clap</name>
       <start>1251310</start>
       <offset>0</offset>
-      <length>40325</length>
+      <length>19862</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
+      <fade-out type="InQuad">19862</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
@@ -6821,10 +7254,234 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <name>Clap03</name>
       <start>1807448</start>
       <offset>0</offset>
+      <length>40325</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Clap03">
+     <properties>
+      <name>Clap03</name>
+      <start>1847172</start>
+      <offset>0</offset>
+      <length>40325</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Clap03">
+     <properties>
+      <name>Clap03</name>
+      <start>1886897</start>
+      <offset>0</offset>
       <length>19862</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">19862</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Clap03">
+     <properties>
+      <name>Clap03</name>
+      <start>1926621</start>
+      <offset>0</offset>
+      <length>40324</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Clap03">
+     <properties>
+      <name>Clap03</name>
+      <start>1966345</start>
+      <offset>0</offset>
+      <length>40324</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Clap03">
+     <properties>
+      <name>Clap03</name>
+      <start>2006069</start>
+      <offset>0</offset>
+      <length>40324</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Clap03">
+     <properties>
+      <name>Clap03</name>
+      <start>2045793</start>
+      <offset>0</offset>
+      <length>40324</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Clap03">
+     <properties>
+      <name>Clap03</name>
+      <start>2085517</start>
+      <offset>0</offset>
+      <length>40325</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Clap03">
+     <properties>
+      <name>Clap03</name>
+      <start>2125242</start>
+      <offset>0</offset>
+      <length>40324</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Clap03">
+     <properties>
+      <name>Clap03</name>
+      <start>2164966</start>
+      <offset>0</offset>
+      <length>40324</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Clap03">
+     <properties>
+      <name>Clap03</name>
+      <start>2204690</start>
+      <offset>0</offset>
+      <length>40324</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Clap03">
+     <properties>
+      <name>Clap03</name>
+      <start>2244414</start>
+      <offset>0</offset>
+      <length>40324</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Clap03">
+     <properties>
+      <name>Clap03</name>
+      <start>2284138</start>
+      <offset>0</offset>
+      <length>40324</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Clap03">
+     <properties>
+      <name>Clap03</name>
+      <start>2323862</start>
+      <offset>0</offset>
+      <length>40324</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Clap03">
+     <properties>
+      <name>Clap03</name>
+      <start>2363586</start>
+      <offset>0</offset>
+      <length>40325</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
@@ -6885,10 +7542,10 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <name>Clap03</name>
       <start>2522483</start>
       <offset>0</offset>
-      <length>40324</length>
+      <length>19862</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
+      <fade-out type="OutQuad">19862</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
@@ -7077,10 +7734,10 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <name>Clap03</name>
       <start>2999173</start>
       <offset>0</offset>
-      <length>19862</length>
+      <length>40324</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">19862</fade-out>
+      <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
@@ -7141,10 +7798,10 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <name>Clap03</name>
       <start>3158069</start>
       <offset>0</offset>
-      <length>40324</length>
+      <length>19862</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
+      <fade-out type="OutQuad">19862</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
@@ -7333,10 +7990,10 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <name>Clap03</name>
       <start>3634759</start>
       <offset>0</offset>
-      <length>19862</length>
+      <length>40324</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">19862</fade-out>
+      <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
@@ -7397,10 +8054,10 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <name>Clap03</name>
       <start>3793655</start>
       <offset>0</offset>
-      <length>40324</length>
+      <length>19862</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
+      <fade-out type="OutQuad">19862</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
@@ -7589,10 +8246,10 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <name>Clap03</name>
       <start>4270345</start>
       <offset>0</offset>
-      <length>19862</length>
+      <length>40324</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">19862</fade-out>
+      <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
@@ -7653,10 +8310,10 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <name>Clap03</name>
       <start>4429241</start>
       <offset>0</offset>
-      <length>40325</length>
+      <length>19863</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
+      <fade-out type="OutQuad">19863</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
@@ -7845,6 +8502,70 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <name>Clap03</name>
       <start>4905931</start>
       <offset>0</offset>
+      <length>40324</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Clap03">
+     <properties>
+      <name>Clap03</name>
+      <start>4945656</start>
+      <offset>0</offset>
+      <length>40324</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Clap03">
+     <properties>
+      <name>Clap03</name>
+      <start>4985379</start>
+      <offset>0</offset>
+      <length>40325</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Clap03">
+     <properties>
+      <name>Clap03</name>
+      <start>5025104</start>
+      <offset>0</offset>
+      <length>40324</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Clap03.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Clap03">
+     <properties>
+      <name>Clap03</name>
+      <start>5064828</start>
+      <offset>0</offset>
       <length>19862</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
@@ -7879,70 +8600,6 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
    </view>
    <controllers/>
    <clips>
-    <clip name="Kick06">
-     <properties>
-      <name>Kick06</name>
-      <start>1827310</start>
-      <offset>0</offset>
-      <length>19862</length>
-      <gain>1</gain>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Kick06.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-     </audio-clip>
-    </clip>
-    <clip name="Kick06">
-     <properties>
-      <name>Kick06</name>
-      <start>1847172</start>
-      <offset>0</offset>
-      <length>19863</length>
-      <gain>1</gain>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Kick06.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-     </audio-clip>
-    </clip>
-    <clip name="Kick06">
-     <properties>
-      <name>Kick06</name>
-      <start>1867035</start>
-      <offset>0</offset>
-      <length>19862</length>
-      <gain>1</gain>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Kick06.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-     </audio-clip>
-    </clip>
-    <clip name="Kick06">
-     <properties>
-      <name>Kick06</name>
-      <start>1886897</start>
-      <offset>0</offset>
-      <length>19862</length>
-      <gain>1</gain>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Kick06.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-     </audio-clip>
-    </clip>
     <clip name="Kick06">
      <properties>
       <name>Kick06</name>
@@ -10879,7 +11536,135 @@ Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
       <length>19863</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
-      <fade-out type="InQuad">19863</fade-out>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Kick06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Kick06">
+     <properties>
+      <name>Kick06</name>
+      <start>5561380</start>
+      <offset>0</offset>
+      <length>19862</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Kick06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Kick06">
+     <properties>
+      <name>Kick06</name>
+      <start>5581242</start>
+      <offset>0</offset>
+      <length>19862</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Kick06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Kick06">
+     <properties>
+      <name>Kick06</name>
+      <start>5601104</start>
+      <offset>0</offset>
+      <length>19862</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Kick06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Kick06">
+     <properties>
+      <name>Kick06</name>
+      <start>5620966</start>
+      <offset>0</offset>
+      <length>19862</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Kick06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Kick06">
+     <properties>
+      <name>Kick06</name>
+      <start>5640828</start>
+      <offset>0</offset>
+      <length>19862</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Kick06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Kick06">
+     <properties>
+      <name>Kick06</name>
+      <start>5660690</start>
+      <offset>0</offset>
+      <length>19862</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Kick06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Kick06">
+     <properties>
+      <name>Kick06</name>
+      <start>5680552</start>
+      <offset>0</offset>
+      <length>19862</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Kick06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="Kick06">
+     <properties>
+      <name>Kick06</name>
+      <start>5700414</start>
+      <offset>0</offset>
+      <length>19862</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="InQuad">19862</fade-out>
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Kick06.wav</filename>
