@@ -1,5 +1,5 @@
 <!DOCTYPE qtractorSession>
-<session version="Qtractor 0.6.5.14git.bfdd7f" name="AcidComposition">
+<session version="Qtractor 0.6.6.2git.6bb43f" name="AcidComposition">
  <properties>
   <directory>/home/jartaud/Music/Studio/Projects/Qtractor</directory>
   <description>Audio file import "Clap01.wav" on Mar 02 2015 10:24:34.
@@ -106,6 +106,7 @@ Audio file import "Snare06.wav" on Mar 02 2015 10:36:19.
 Audio file import "Clap03.wav" on Mar 02 2015 10:40:44.
 Audio file import "Kick06.wav" on Mar 02 2015 11:12:08.
 Audio file import "TechBassT A0.wav" on Mar 06 2015 15:36:02.
+Audio file import "AcidVoice.ogg" on Apr 17 2015 11:10:52.
 </description>
   <sample-rate>48000</sample-rate>
   <tempo>145</tempo>
@@ -127,6 +128,7 @@ Audio file import "TechBassT A0.wav" on Mar 06 2015 15:36:02.
    <file name="Openhat06.wav">../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat06.wav</file>
    <file name="Openhat10.wav">../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Openhat10.wav</file>
    <file name="Snare06.wav">../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Snare06.wav</file>
+   <file name="AcidVoice.ogg">AcidVoice.ogg</file>
   </audio-list>
   <midi-list/>
  </files>
@@ -153,10 +155,34 @@ Audio file import "TechBassT A0.wav" on Mar 06 2015 15:36:02.
       <port>capture_2</port>
      </connect>
     </input-connects>
-    <output-gain>1</output-gain>
+    <output-gain>0.951481</output-gain>
     <output-panning>0</output-panning>
     <output-controllers/>
-    <output-plugins/>
+    <output-plugins>
+     <plugin type="LADSPA">
+      <filename>/usr/lib64/ladspa/caps.so</filename>
+      <index>0</index>
+      <label>Eq</label>
+      <preset></preset>
+      <direct-access-param>-1</direct-access-param>
+      <activate-subject-index>11</activate-subject-index>
+      <activated>1</activated>
+      <configs/>
+      <params>
+       <param index="1" name="31 Hz">2.3424</param>
+       <param index="2" name="63 Hz">3.4296</param>
+       <param index="3" name="125 Hz">6.6768</param>
+       <param index="4" name="250 Hz">-4.692</param>
+       <param index="5" name="500 Hz">5.0496</param>
+       <param index="6" name="1 kHz">3.4296</param>
+       <param index="7" name="2 kHz">2.8896</param>
+       <param index="8" name="4 kHz">-12.2736</param>
+       <param index="9" name="8 kHz">12.6312</param>
+       <param index="10" name="16 kHz">10.464</param>
+      </params>
+      <controllers/>
+     </plugin>
+    </output-plugins>
     <output-connects>
      <connect index="0">
       <client>system</client>
@@ -205,7 +231,7 @@ Audio file import "TechBassT A0.wav" on Mar 06 2015 15:36:02.
    <horizontal-zoom>10</horizontal-zoom>
    <vertical-zoom>100</vertical-zoom>
    <snap-per-beat>4</snap-per-beat>
-   <edit-head>4027035</edit-head>
+   <edit-head>1544276</edit-head>
    <edit-tail>6996414</edit-tail>
   </view>
   <track type="audio" name="ClosedHats">
@@ -23349,6 +23375,61 @@ Audio file import "TechBassT A0.wav" on Mar 06 2015 15:36:02.
      </properties>
      <audio-clip>
       <filename>../../Samples/musicradar-techno-drum-fx-samples/Drum_Hits/Kick06.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+   </clips>
+   <plugins/>
+  </track>
+  <track type="audio" name="AcidVoice">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#99ccff</background-color>
+    <foreground-color>#4c667f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="AcidVoice">
+     <properties>
+      <name>AcidVoice</name>
+      <start>1708138</start>
+      <offset>0</offset>
+      <length>238345</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>AcidVoice.ogg</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+     </audio-clip>
+    </clip>
+    <clip name="AcidVoice">
+     <properties>
+      <name>AcidVoice</name>
+      <start>6792828</start>
+      <offset>0</offset>
+      <length>238345</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>AcidVoice.ogg</filename>
       <time-stretch>1</time-stretch>
       <pitch-shift>1</pitch-shift>
      </audio-clip>
