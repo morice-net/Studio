@@ -1,0 +1,15 @@
+Jack
+alsa-plugins-jack
+qmidiroute
+Luppp
+lmms
+Qtractor
+Audacity
+
+Cadence (KXStudio)
+Carla (KXStudio)
+Carla-control (KXStudio)
+Claudia (KXStudio)
+
+ArtyFX (lv2-artyfx-plugins)
+
