@@ -5,6 +5,7 @@ Luppp
 lmms
 Qtractor
 Audacity
+seq24
 
 Cadence (KXStudio)
 Carla (KXStudio)
