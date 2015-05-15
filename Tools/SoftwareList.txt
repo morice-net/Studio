@@ -13,4 +13,4 @@ Carla-control (KXStudio)
 Claudia (KXStudio)
 
 ArtyFX (lv2-artyfx-plugins)
-
+ladspa
