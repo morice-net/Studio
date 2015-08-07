@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device name="Akai APC40" author="Krash" type="MIDI" sysexid="F07E??06024773001900010000007F7F7F7F004B0200090008000203080000080803F7" decks="1">
+
+  <led note="0x39" value="0x06" channel="7" name="LED_E8_orange_blink" />
+  <led note="0x39" value="0x06" channel="6" name="LED_E7_orange_blink" />
+  <led note="0x39" value="0x06" channel="5" name="LED_E6_orange_blink" />
+  <led note="0x39" value="0x06" channel="4" name="LED_E5_orange_blink" />
+  <led note="0x39" value="0x06" channel="3" name="LED_E4_orange_blink" />
+  <led note="0x39" value="0x06" channel="2" name="LED_E3_orange_blink" />
+  <led note="0x39" value="0x06" channel="1" name="LED_E2_orange_blink" />
+  <led note="0x39" value="0x06" channel="0" name="LED_E1_orange_blink" />
+
+  <led note="0x38" value="0x06" channel="7" name="LED_D8_orange_blink" />
+  <led note="0x38" value="0x06" channel="6" name="LED_D7_orange_blink" />
+  <led note="0x38" value="0x06" channel="5" name="LED_D6_orange_blink" />
+  <led note="0x38" value="0x06" channel="4" name="LED_D5_orange_blink" />
+  <led note="0x38" value="0x06" channel="3" name="LED_D4_orange_blink" />
+  <led note="0x38" value="0x06" channel="2" name="LED_D3_orange_blink" />
+  <led note="0x38" value="0x06" channel="1" name="LED_D2_orange_blink" />
+  <led note="0x38" value="0x06" channel="0" name="LED_D1_orange_blink" />
+
+  <led note="0x37" value="0x06" channel="7" name="LED_C8_orange_blink" />
+  <led note="0x37" value="0x06" channel="6" name="LED_C7_orange_blink" />
+  <led note="0x37" value="0x06" channel="5" name="LED_C6_orange_blink" />
+  <led note="0x37" value="0x06" channel="4" name="LED_C5_orange_blink" />
+  <led note="0x37" value="0x06" channel="3" name="LED_C4_orange_blink" />
+  <led note="0x37" value="0x06" channel="2" name="LED_C3_orange_blink" />
+  <led note="0x37" value="0x06" channel="1" name="LED_C2_orange_blink" />
+  <led note="0x37" value="0x06" channel="0" name="LED_C1_orange_blink" />
+
+  <led note="0x36" value="0x06" channel="7" name="LED_B8_orange_blink" />
+  <led note="0x36" value="0x06" channel="6" name="LED_B7_orange_blink" />
+  <led note="0x36" value="0x06" channel="5" name="LED_B6_orange_blink" />
+  <led note="0x36" value="0x06" channel="4" name="LED_B5_orange_blink" />
+  <led note="0x36" value="0x06" channel="3" name="LED_B4_orange_blink" />
+  <led note="0x36" value="0x06" channel="2" name="LED_B3_orange_blink" />
+  <led note="0x36" value="0x06" channel="1" name="LED_B2_orange_blink" />
+  <led note="0x36" value="0x06" channel="0" name="LED_B1_orange_blink" />
+
+  <led note="0x35" value="0x06" channel="7" name="LED_A8_orange_blink" />
+  <led note="0x35" value="0x06" channel="6" name="LED_A7_orange_blink" />
+  <led note="0x35" value="0x06" channel="5" name="LED_A6_orange_blink" />
+  <led note="0x35" value="0x06" channel="4" name="LED_A5_orange_blink" />
+  <led note="0x35" value="0x06" channel="3" name="LED_A4_orange_blink" />
+  <led note="0x35" value="0x06" channel="2" name="LED_A3_orange_blink" />
+  <led note="0x35" value="0x06" channel="1" name="LED_A2_orange_blink" />
+  <led note="0x35" value="0x06" channel="0" name="LED_A1_orange_blink" />
+
+  <led note="0x39" value="0x05" channel="7" name="LED_E8_orange" />
+  <led note="0x39" value="0x05" channel="6" name="LED_E7_orange" />
+  <led note="0x39" value="0x05" channel="5" name="LED_E6_orange" />
+  <led note="0x39" value="0x05" channel="4" name="LED_E5_orange" />
+  <led note="0x39" value="0x05" channel="3" name="LED_E4_orange" />
+  <led note="0x39" value="0x05" channel="2" name="LED_E3_orange" />
+  <led note="0x39" value="0x05" channel="1" name="LED_E2_orange" />
+  <led note="0x39" value="0x05" channel="0" name="LED_E1_orange" />
+
+  <led note="0x38" value="0x05" channel="7" name="LED_D8_orange" />
+  <led note="0x38" value="0x05" channel="6" name="LED_D7_orange" />
+  <led note="0x38" value="0x05" channel="5" name="LED_D6_orange" />
+  <led note="0x38" value="0x05" channel="4" name="LED_D5_orange" />
+  <led note="0x38" value="0x05" channel="3" name="LED_D4_orange" />
+  <led note="0x38" value="0x05" channel="2" name="LED_D3_orange" />
+  <led note="0x38" value="0x05" channel="1" name="LED_D2_orange" />
+  <led note="0x38" value="0x05" channel="0" name="LED_D1_orange" />
+
+  <led note="0x37" value="0x05" channel="7" name="LED_C8_orange" />
+  <led note="0x37" value="0x05" channel="6" name="LED_C7_orange" />
+  <led note="0x37" value="0x05" channel="5" name="LED_C6_orange" />
+  <led note="0x37" value="0x05" channel="4" name="LED_C5_orange" />
+  <led note="0x37" value="0x05" channel="3" name="LED_C4_orange" />
+  <led note="0x37" value="0x05" channel="2" name="LED_C3_orange" />
+  <led note="0x37" value="0x05" channel="1" name="LED_C2_orange" />
+  <led note="0x37" value="0x05" channel="0" name="LED_C1_orange" />
+
+  <led note="0x36" value="0x05" channel="7" name="LED_B8_orange" />
+  <led note="0x36" value="0x05" channel="6" name="LED_B7_orange" />
+  <led note="0x36" value="0x05" channel="5" name="LED_B6_orange" />
+  <led note="0x36" value="0x05" channel="4" name="LED_B5_orange" />
+  <led note="0x36" value="0x05" channel="3" name="LED_B4_orange" />
+  <led note="0x36" value="0x05" channel="2" name="LED_B3_orange" />
+  <led note="0x36" value="0x05" channel="1" name="LED_B2_orange" />
+  <led note="0x36" value="0x05" channel="0" name="LED_B1_orange" />
+
+  <led note="0x35" value="0x05" channel="7" name="LED_A8_orange" />
+  <led note="0x35" value="0x05" channel="6" name="LED_A7_orange" />
+  <led note="0x35" value="0x05" channel="5" name="LED_A6_orange" />
+  <led note="0x35" value="0x05" channel="4" name="LED_A5_orange" />
+  <led note="0x35" value="0x05" channel="3" name="LED_A4_orange" />
+  <led note="0x35" value="0x05" channel="2" name="LED_A3_orange" />
+  <led note="0x35" value="0x05" channel="1" name="LED_A2_orange" />
+  <led note="0x35" value="0x05" channel="0" name="LED_A1_orange" />
+
+  <led note="0x39" value="0x04" channel="7" name="LED_E8_red_blink" />
+  <led note="0x39" value="0x04" channel="6" name="LED_E7_red_blink" />
+  <led note="0x39" value="0x04" channel="5" name="LED_E6_red_blink" />
+  <led note="0x39" value="0x04" channel="4" name="LED_E5_red_blink" />
+  <led note="0x39" value="0x04" channel="3" name="LED_E4_red_blink" />
+  <led note="0x39" value="0x04" channel="2" name="LED_E3_red_blink" />
+  <led note="0x39" value="0x04" channel="1" name="LED_E2_red_blink" />
+  <led note="0x39" value="0x04" channel="0" name="LED_E1_red_blink" />
+
+  <led note="0x38" value="0x04" channel="7" name="LED_D8_red_blink" />
+  <led note="0x38" value="0x04" channel="6" name="LED_D7_red_blink" />
+  <led note="0x38" value="0x04" channel="5" name="LED_D6_red_blink" />
+  <led note="0x38" value="0x04" channel="4" name="LED_D5_red_blink" />
+  <led note="0x38" value="0x04" channel="3" name="LED_D4_red_blink" />
+  <led note="0x38" value="0x04" channel="2" name="LED_D3_red_blink" />
+  <led note="0x38" value="0x04" channel="1" name="LED_D2_red_blink" />
+  <led note="0x38" value="0x04" channel="0" name="LED_D1_red_blink" />
+
+  <led note="0x37" value="0x04" channel="7" name="LED_C8_red_blink" />
+  <led note="0x37" value="0x04" channel="6" name="LED_C7_red_blink" />
+  <led note="0x37" value="0x04" channel="5" name="LED_C6_red_blink" />
+  <led note="0x37" value="0x04" channel="4" name="LED_C5_red_blink" />
+  <led note="0x37" value="0x04" channel="3" name="LED_C4_red_blink" />
+  <led note="0x37" value="0x04" channel="2" name="LED_C3_red_blink" />
+  <led note="0x37" value="0x04" channel="1" name="LED_C2_red_blink" />
+  <led note="0x37" value="0x04" channel="0" name="LED_C1_red_blink" />
+
+  <led note="0x36" value="0x04" channel="7" name="LED_B8_red_blink" />
+  <led note="0x36" value="0x04" channel="6" name="LED_B7_red_blink" />
+  <led note="0x36" value="0x04" channel="5" name="LED_B6_red_blink" />
+  <led note="0x36" value="0x04" channel="4" name="LED_B5_red_blink" />
+  <led note="0x36" value="0x04" channel="3" name="LED_B4_red_blink" />
+
+
+
+
+                                                |
+          CLIP LAUNCH / SESSION OVERVIEW            SCENE_            TRACK SELECTION      |
+                              LAUNCH                     |
+   A   1   2   3   4   5   6   7   8   1         o   o   o   o   |
+                                       1   2   3   4   |
+   B   1   2   3   4   5   6   7   8   1         o   o   o   o   |
+                                       5   6   7   8   |
+   C   1   2   3   4   5   6   7   8   1         _   _   UP  _   _   |
+                                              /\       __      |
+   D   1   2   3   4   5   6   7   8   1         _ LEFT  <   >  RIGHT   |
+                                              \/   _   _   |
+   E   1   2   3   4   5   6   7   8   1               DOWN         |
+------------------------------------------------------------------------------------------------|               |
+   CLIP    1   2   3   4   5   6   7   8   STOP_ALL_   |      DEVICE CONTROL      |
+   STOP                           CLIPS      |   o   o   o   o   |
+------------------------------------------------------------------------------------------------|   1   2   3   4   |
+   TRACK         TRACK SELECTION                     |   o   o   o   o   |
+   SELECT   1   2   3   4   5   6   7   8   MASTER      |   5   6   7   8   |
+------------------------------------------------------------------------------------------------|   _   _   _   _   |
+ACTIVATOR    1   2   3   4   5   6   7   8         |               |
+SOLO/CUE    1   2   3   4   5   6   7   8   CUE LEVEL   |   _   _   _   _   |
+RECORD_ARM   1   2   3   4   5   6   7   8         |               |
+------------------------------------------------------------------------------------------------|      __       __       __      |
+      |   |   |   |   |   |   |   |   |           PLAY     STOP     REC      |
+      |   |   |   |   |   |   |   |   |                     |
+      |   |   |   |   |   |   |   |   |              ----------------      |
+      |   |   |   |   |   |   |   |   |            CROSSFADER      |
+      |   |   |   |   |   |   |   |   |                     |
+      1    2   3   4   5   6   7   8     MASTER   
+
+
+
+I had a issue with one row of buttons due to the fact the midi info from ableton was wrong.... 
+
+  <led note="0x36" value="0x04" channel="2" name="LED_B3_red_blink" />
+  <led note="0x36" value="0x04" channel="1" name="LED_B2_red_blink" />
+  <led note="0x36" value="0x04" channel="0" name="LED_B1_red_blink" />
+
+  <led note="0x35" value="0x04" channel="7" name="LED_A8_red_blink" />
+  <led note="0x35" value="0x04" channel="6" name="LED_A7_red_blink" />
+  <led note="0x35" value="0x04" channel="5" name="LED_A6_red_blink" />
+  <led note="0x35" value="0x04" channel="4" name="LED_A5_red_blink" />
+  <led note="0x35" value="0x04" channel="3" name="LED_A4_red_blink" />
+  <led note="0x35" value="0x04" channel="2" name="LED_A3_red_blink" />
+  <led note="0x35" value="0x04" channel="1" name="LED_A2_red_blink" />
+  <led note="0x35" value="0x04" channel="0" name="LED_A1_red_blink" />
+
+  <led note="0x39" value="0x03" channel="7" name="LED_E8_red" />
+  <led note="0x39" value="0x03" channel="6" name="LED_E7_red" />
+  <led note="0x39" value="0x03" channel="5" name="LED_E6_red" />
+  <led note="0x39" value="0x03" channel="4" name="LED_E5_red" />
+  <led note="0x39" value="0x03" channel="3" name="LED_E4_red" />
+  <led note="0x39" value="0x03" channel="2" name="LED_E3_red" />
+  <led note="0x39" value="0x03" channel="1" name="LED_E2_red" />
+  <led note="0x39" value="0x03" channel="0" name="LED_E1_red" />
+
+  <led note="0x38" value="0x03" channel="7" name="LED_D8_red" />
+  <led note="0x38" value="0x03" channel="6" name="LED_D7_red" />
+  <led note="0x38" value="0x03" channel="5" name="LED_D6_red" />
+  <led note="0x38" value="0x03" channel="4" name="LED_D5_red" />
+  <led note="0x38" value="0x03" channel="3" name="LED_D4_red" />
+  <led note="0x38" value="0x03" channel="2" name="LED_D3_red" />
+  <led note="0x38" value="0x03" channel="1" name="LED_D2_red" />
+  <led note="0x38" value="0x03" channel="0" name="LED_D1_red" />
+
+  <led note="0x37" value="0x03" channel="7" name="LED_C8_red" />
+  <led note="0x37" value="0x03" channel="6" name="LED_C7_red" />
+  <led note="0x37" value="0x03" channel="5" name="LED_C6_red" />
+  <led note="0x37" value="0x03" channel="4" name="LED_C5_red" />
+  <led note="0x37" value="0x03" channel="3" name="LED_C4_red" />
+  <led note="0x37" value="0x03" channel="2" name="LED_C3_red" />
+  <led note="0x37" value="0x03" channel="1" name="LED_C2_red" />
+  <led note="0x37" value="0x03" channel="0" name="LED_C1_red" />
+
+  <led note="0x36" value="0x03" channel="7" name="LED_B8_red" />
+  <led note="0x36" value="0x03" channel="6" name="LED_B7_red" />
+  <led note="0x36" value="0x03" channel="5" name="LED_B6_red" />
+  <led note="0x36" value="0x03" channel="4" name="LED_B5_red" />
+  <led note="0x36" value="0x03" channel="3" name="LED_B4_red" />
+  <led note="0x36" value="0x03" channel="2" name="LED_B3_red" />
+  <led note="0x36" value="0x03" channel="1" name="LED_B2_red" />
+  <led note="0x36" value="0x03" channel="0" name="LED_B1_red" />
+
+  <led note="0x35" value="0x03" channel="7" name="LED_A8_red" />
+  <led note="0x35" value="0x03" channel="6" name="LED_A7_red" />
+  <led note="0x35" value="0x03" channel="5" name="LED_A6_red" />
+  <led note="0x35" value="0x03" channel="4" name="LED_A5_red" />
+  <led note="0x35" value="0x03" channel="3" name="LED_A4_red" />
+  <led note="0x35" value="0x03" channel="2" name="LED_A3_red" />
+  <led note="0x35" value="0x03" channel="1" name="LED_A2_red" />
+  <led note="0x35" value="0x03" channel="0" name="LED_A1_red" />
+
+  <led note="0x34" value="0x02" channel="7" name="LED_Clip_Stop_8_green_blink" />
+  <led note="0x34" value="0x02" channel="6" name="LED_Clip_Stop_7_green_blink" />
+  <led note="0x34" value="0x02" channel="5" name="LED_Clip_Stop_6_green_blink" />
+  <led note="0x34" value="0x02" channel="4" name="LED_Clip_Stop_5_green_blink" />
+  <led note="0x34" value="0x02" channel="3" name="LED_Clip_Stop_4_green_blink" />
+  <led note="0x34" value="0x02" channel="2" name="LED_Clip_Stop_3_green_blink" />
+  <led note="0x34" value="0x02" channel="1" name="LED_Clip_Stop_2_green_blink" />
+  <led note="0x34" value="0x02" channel="0" name="LED_Clip_Stop_1_green_blink" />
+
+  <led note="0x56" value="0x02" name="LED_scene_5_green_blink" />
+  <led note="0x39" value="0x02" channel="7" name="LED_E8_green_blink" />
+  <led note="0x39" value="0x02" channel="6" name="LED_E7_green_blink" />
+  <led note="0x39" value="0x02" channel="5" name="LED_E6_green_blink" />
+  <led note="0x39" value="0x02" channel="4" name="LED_E5_green_blink" />
+  <led note="0x39" value="0x02" channel="3" name="LED_E4_green_blink" />
+  <led note="0x39" value="0x02" channel="2" name="LED_E3_green_blink" />
+  <led note="0x39" value="0x02" channel="1" name="LED_E2_green_blink" />
+  <led note="0x39" value="0x02" channel="0" name="LED_E1_green_blink" />
+
+  <led note="0x55" value="0x02" name="LED_scene_4_green_blink" />
+  <led note="0x38" value="0x02" channel="7" name="LED_D8_green_blink" />
+  <led note="0x38" value="0x02" channel="6" name="LED_D7_green_blink" />
+  <led note="0x38" value="0x02" channel="5" name="LED_D6_green_blink" />
+  <led note="0x38" value="0x02" channel="4" name="LED_D5_green_blink" />
+  <led note="0x38" value="0x02" channel="3" name="LED_D4_green_blink" />
+  <led note="0x38" value="0x02" channel="2" name="LED_D3_green_blink" />
+  <led note="0x38" value="0x02" channel="1" name="LED_D2_green_blink" />
+  <led note="0x38" value="0x02" channel="0" name="LED_D1_green_blink" />
+
+  <led note="0x54" value="0x02" name="LED_scene_3_green_blink" />
+  <led note="0x37" value="0x02" channel="7" name="LED_C8_green_blink" />
+  <led note="0x37" value="0x02" channel="6" name="LED_C7_green_blink" />
+  <led note="0x37" value="0x02" channel="5" name="LED_C6_green_blink" />
+  <led note="0x37" value="0x02" channel="4" name="LED_C5_green_blink" />
+  <led note="0x37" value="0x02" channel="3" name="LED_C4_green_blink" />
+  <led note="0x37" value="0x02" channel="2" name="LED_C3_green_blink" />
+  <led note="0x37" value="0x02" channel="1" name="LED_C2_green_blink" />
+  <led note="0x37" value="0x02" channel="0" name="LED_C1_green_blink" />
+
+  <led note="0x53" value="0x02" name="LED_scene_2_green_blink" />
+  <led note="0x36" value="0x02" channel="7" name="LED_B8_green_blink" />
+  <led note="0x36" value="0x02" channel="6" name="LED_B7_green_blink" />
+  <led note="0x36" value="0x02" channel="5" name="LED_B6_green_blink" />
+  <led note="0x36" value="0x02" channel="4" name="LED_B5_green_blink" />
+  <led note="0x36" value="0x02" channel="3" name="LED_B4_green_blink" />
+  <led note="0x36" value="0x02" channel="2" name="LED_B3_green_blink" />
+  <led note="0x36" value="0x02" channel="1" name="LED_B2_green_blink" />
+  <led note="0x36" value="0x02" channel="0" name="LED_B1_green_blink" />
+
+  <led note="0x52" value="0x02" name="LED_scene_1_green_blink" />
+  <led note="0x35" value="0x02" channel="7" name="LED_A8_green_blink" />
+  <led note="0x35" value="0x02" channel="6" name="LED_A7_green_blink" />
+  <led note="0x35" value="0x02" channel="5" name="LED_A6_green_blink" />
+  <led note="0x35" value="0x02" channel="4" name="LED_A5_green_blink" />
+  <led note="0x35" value="0x02" channel="3" name="LED_A4_green_blink" />
+  <led note="0x35" value="0x02" channel="2" name="LED_A3_green_blink" />
+  <led note="0x35" value="0x02" channel="1" name="LED_A2_green_blink" />
+  <led note="0x35" value="0x02" channel="0" name="LED_A1_green_blink" />
+
+  <led note="0x34" channel="7" name="LED_Clip_Stop_8_green" />
+  <led note="0x34" channel="6" name="LED_Clip_Stop_7_green" />
+  <led note="0x34" channel="5" name="LED_Clip_Stop_6_green" />
+  <led note="0x34" channel="4" name="LED_Clip_Stop_5_green" />
+  <led note="0x34" channel="3" name="LED_Clip_Stop_4_green" />
+  <led note="0x34" channel="2" name="LED_Clip_Stop_3_green" />
+  <led note="0x34" channel="1" name="LED_Clip_Stop_2_green" />
+  <led note="0x34" channel="0" name="LED_Clip_Stop_1_green" />
+
+  <led note="0x56" name="LED_scene_5_green" />
+  <led note="0x39" channel="7" name="LED_E8_green" />
+  <led note="0x39" channel="6" name="LED_E7_green" />
+  <led note="0x39" channel="5" name="LED_E6_green" />
+  <led note="0x39" channel="4" name="LED_E5_green" />
+  <led note="0x39" channel="3" name="LED_E4_green" />
+  <led note="0x39" channel="2" name="LED_E3_green" />
+  <led note="0x39" channel="1" name="LED_E2_green" />
+  <led note="0x39" channel="0" name="LED_E1_green" />
+
+  <led note="0x55" name="LED_scene_4_green" />
+  <led note="0x38" channel="7" name="LED_D8_green" />
+  <led note="0x38" channel="6" name="LED_D7_green" />
+  <led note="0x38" channel="5" name="LED_D6_green" />
+  <led note="0x38" channel="4" name="LED_D5_green" />
+  <led note="0x38" channel="3" name="LED_D4_green" />
+  <led note="0x38" channel="2" name="LED_D3_green" />
+  <led note="0x38" channel="1" name="LED_D2_green" />
+  <led note="0x38" channel="0" name="LED_D1_green" />
+
+  <led note="0x54" name="LED_scene_3_green" />
+  <led note="0x37" channel="7" name="LED_C8_green" />
+  <led note="0x37" channel="6" name="LED_C7_green" />
+  <led note="0x37" channel="5" name="LED_C6_green" />
+  <led note="0x37" channel="4" name="LED_C5_green" />
+  <led note="0x37" channel="3" name="LED_C4_green" />
+  <led note="0x37" channel="2" name="LED_C3_green" />
+  <led note="0x37" channel="1" name="LED_C2_green" />
+  <led note="0x37" channel="0" name="LED_C1_green" />
+
+  <led note="0x53" name="LED_scene_2_green" />
+  <led note="0x36" channel="7" name="LED_B8_green" />
+  <led note="0x36" channel="6" name="LED_B7_green" />
+  <led note="0x36" channel="5" name="LED_B6_green" />
+  <led note="0x36" channel="4" name="LED_B5_green" />
+  <led note="0x36" channel="3" name="LED_B4_green" />
+  <led note="0x36" channel="2" name="LED_B3_green" />
+  <led note="0x36" channel="1" name="LED_B2_green" />
+  <led note="0x36" channel="0" name="LED_B1_green" />
+
+  <led note="0x52" name="LED_scene_1_green" />
+  <led note="0x35" channel="7" name="LED_A8_green" />
+  <led note="0x35" channel="6" name="LED_A7_green" />
+  <led note="0x35" channel="5" name="LED_A6_green" />
+  <led note="0x35" channel="4" name="LED_A5_green" />
+  <led note="0x35" channel="3" name="LED_A4_green" />
+  <led note="0x35" channel="2" name="LED_A3_green" />
+  <led note="0x35" channel="1" name="LED_A2_green" />
+  <led note="0x35" channel="0" name="LED_A1_green" />
+
+  <button note="0x5D" name="REC" />
+  <button note="0x5C" name="STOP" />
+  <button note="0x5B" name="PLAY" />
+
+  <button note="0x41" name="METRONOME" />
+  <button note="0x40" name="MIDI_OVERDUB" />
+  <button note="0x3F" name="REC_QUANTIZIATION" />
+  <button note="0x3E" name="DETAIL_VIEW" />
+  <button note="0x3D" name="ARROW_RIGHT" />
+  <button note="0x3C" name="ARROW_LEFT" />
+  <button note="0x3B" name="DEVICE_ON-OFF" />
+  <button note="0x3A" name="CLIP-TRACK" />
+
+  <slider cc="0x17" name="Device_Control_8" />
+  <slider cc="0x16" name="Device_Control_7" />
+  <slider cc="0x15" name="Device_Control_6" />
+  <slider cc="0x14" name="Device_Control_5" />
+  <slider cc="0x13" name="Device_Control_4" />
+  <slider cc="0x12" name="Device_Control_3" />
+  <slider cc="0x11" name="Device_Control_2" />
+  <slider cc="0x10" name="Device_Control_1" />
+
+  <button note="0x64" name="NUDGE+" />
+  <button note="0x65" name="NUDGE-" />
+  <button note="0x63" name="TAP TEMPO" />
+  <button note="0x61" name="LEFT" />
+  <button note="0x60" name="RIGHT" />
+  <button note="0x5F" name="DOWN" />
+  <button note="0x5E" name="UP" />
+  <button note="0x62" name="SHIFT" />
+  <button note="0x5A" name="SEND C" />
+  <button note="0x59" name="SEND B" />
+  <button note="0x58" name="SEND A" />
+  <button note="0x57" name="PAN" />
+
+  <slider cc="0x37" name="Track_Control_8" />
+  <slider cc="0x36" name="Track_Control_7" />
+  <slider cc="0x35" name="Track_Control_6" />
+  <slider cc="0x34" name="Track_Control_5" />
+  <slider cc="0x33" name="Track_Control_4" />
+  <slider cc="0x32" name="Track_Control_3" />
+  <slider cc="0x31" name="Track_Control_2" />
+  <slider cc="0x30" name="Track_Control_1" />
+
+  <slider cc="0x2F" name="CUE_Level" />
+  <slider cc="0x0F" name="Crossfader" />
+  <slider cc="0x0E" name="Line_Fader_Master" />
+  <slider cc="0x07" channel="7" name="Line_Fader_8" />
+  <slider cc="0x07" channel="6" name="Line_Fader_7" />
+  <slider cc="0x07" channel="5" name="Line_Fader_6" />
+  <slider cc="0x07" channel="4" name="Line_Fader_5" />
+  <slider cc="0x07" channel="3" name="Line_Fader_4" />
+  <slider cc="0x07" channel="2" name="Line_Fader_3" />
+  <slider cc="0x07" channel="1" name="Line_Fader_2" />
+  <slider cc="0x07" channel="0" name="Line_Fader_1" />
+
+  <toggle note="0x30" channel="8" name="Record_Arm_9" />
+  <toggle note="0x30" channel="7" name="Record_Arm_8" />
+  <toggle note="0x30" channel="6" name="Record_Arm_7" />
+  <toggle note="0x30" channel="5" name="Record_Arm_6" />
+  <toggle note="0x30" channel="4" name="Record_Arm_5" />
+  <toggle note="0x30" channel="3" name="Record_Arm_4" />
+  <toggle note="0x30" channel="2" name="Record_Arm_3" />
+  <toggle note="0x30" channel="1" name="Record_Arm_2" />
+  <toggle note="0x30" channel="0" name="Record_Arm_1" />
+
+  <toggle note="0x31" channel="8" name="Solo_Cue_9" />
+  <toggle note="0x31" channel="7" name="Solo_Cue_8" />
+  <toggle note="0x31" channel="6" name="Solo_Cue_7" />
+  <toggle note="0x31" channel="5" name="Solo_Cue_6" />
+  <toggle note="0x31" channel="4" name="Solo_Cue_5" />
+  <toggle note="0x31" channel="3" name="Solo_Cue_4" />
+  <toggle note="0x31" channel="2" name="Solo_Cue_3" />
+  <toggle note="0x31" channel="1" name="Solo_Cue_2" />
+  <toggle note="0x31" channel="0" name="Solo_Cue_1" />
+
+  <toggle note="0x32" channel="8" name="Activator_9" />
+  <toggle note="0x32" channel="7" name="Activator_8" />
+  <toggle note="0x32" channel="6" name="Activator_7" />
+  <toggle note="0x32" channel="5" name="Activator_6" />
+  <toggle note="0x32" channel="4" name="Activator_5" />
+  <toggle note="0x32" channel="3" name="Activator_4" />
+  <toggle note="0x32" channel="2" name="Activator_3" />
+  <toggle note="0x32" channel="1" name="Activator_2" />
+  <toggle note="0x32" channel="0" name="Activator_1" />
+
+  <button cc="0x10" channel="8" name="Track_Select_Master" />
+  <button cc="0x10" channel="7" name="Track_Select_8" />
+  <button cc="0x10" channel="6" name="Track_Select_7" />
+  <button cc="0x10" channel="5" name="Track_Select_6" />
+  <button cc="0x10" channel="4" name="Track_Select_5" />
+  <button cc="0x10" channel="3" name="Track_Select_4" />
+  <button cc="0x10" channel="2" name="Track_Select_3" />
+  <button cc="0x10" channel="1" name="Track_Select_2" />
+  <button cc="0x10" channel="0" name="Track_Select_1" />
+
+  <button note="0x51" name="Clip_Stop_all" />
+  <button note="0x34" channel="7" name="Clip_Stop_8" />
+  <button note="0x34" channel="6" name="Clip_Stop_7" />
+  <button note="0x34" channel="5" name="Clip_Stop_6" />
+  <button note="0x34" channel="4" name="Clip_Stop_5" />
+  <button note="0x34" channel="3" name="Clip_Stop_4" />
+  <button note="0x34" channel="2" name="Clip_Stop_3" />
+  <button note="0x34" channel="1" name="Clip_Stop_2" />
+  <button note="0x34" channel="0" name="Clip_Stop_1" />
+
+  <button note="0x56" name="Scene_Launch_5" />
+  <button note="0x39" channel="7" name="E8" />
+  <button note="0x39" channel="6" name="E7" />
+  <button note="0x39" channel="5" name="E6" />
+  <button note="0x39" channel="4" name="E5" />
+  <button note="0x39" channel="3" name="E4" />
+  <button note="0x39" channel="2" name="E3" />
+  <button note="0x39" channel="1" name="E2" />
+  <button note="0x39" channel="0" name="E1" />
+
+  <button note="0x55" name="Scene_Launch_4" />
+  <button note="0x38" channel="7" name="D8" />
+  <button note="0x38" channel="6" name="D7" />
+  <button note="0x38" channel="5" name="D6" />
+  <button note="0x38" channel="4" name="D5" />
+  <button note="0x38" channel="3" name="D4" />
+  <button note="0x38" channel="2" name="D3" />
+  <button note="0x38" channel="1" name="D2" />
+  <button note="0x38" channel="0" name="D1" />
+
+  <button note="0x54" name="Scene_Launch_3" />
+  <button note="0x37" channel="7" name="C8" />
+  <button note="0x37" channel="6" name="C7" />
+  <button note="0x37" channel="5" name="C6" />
+  <button note="0x37" channel="4" name="C5" />
+  <button note="0x37" channel="3" name="C4" />
+  <button note="0x37" channel="2" name="C3" />
+  <button note="0x37" channel="1" name="C2" />
+  <button note="0x37" channel="0" name="C1" />
+
+  <button note="0x53" name="Scene_Launch_2" />
+  <button note="0x36" channel="7" name="B8" />
+  <button note="0x36" channel="6" name="B7" />
+  <button note="0x36" channel="5" name="B6" />
+  <button note="0x36" channel="4" name="B5" />
+  <button note="0x36" channel="3" name="B4" />
+  <button note="0x36" channel="2" name="B3" />
+  <button note="0x36" channel="1" name="B2" />
+  <button note="0x36" channel="0" name="B1" />
+
+  <button note="0x52" name="Scene_Launch_1" />
+  <button note="0x35" channel="7" name="A8" />
+  <button note="0x35" channel="6" name="A7" />
+  <button note="0x35" channel="5" name="A6" />
+  <button note="0x35" channel="4" name="A5" />
+  <button note="0x35" channel="3" name="A4" />
+  <button note="0x35" channel="2" name="A3" />
+  <button note="0x35" channel="1" name="A2" />
+  <button note="0x35" channel="0" name="A1" />
+
+</device> 
