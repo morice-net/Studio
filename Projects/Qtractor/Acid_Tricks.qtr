@@ -1,7 +1,7 @@
 <!DOCTYPE qtractorSession>
-<session version="Qtractor 0.6.7.19git.c9c69d" name="Acid-Tricks">
+<session version="Qtractor 0.7.0git.bb751b" name="Acid-Tricks">
  <properties>
-  <directory>/home/jartaud/Music/Studio/Projects/Qtractor</directory>
+  <directory>/home/morice/Music/Studio/Projects/Qtractor</directory>
   <description>Audio file import "Atmosphere.wav" on Jul 22 2015 16:57:04.
 Audio file import "1_Kickwav.wav" on Jul 22 2015 16:57:28.
 Audio file import "3_Clapwav.wav" on Jul 22 2015 16:58:22.
@@ -14,11 +14,11 @@ Audio file import "6_BTAADWAV.wav" on Jul 22 2015 16:59:03.
   <tempo>140</tempo>
   <ticks-per-beat>960</ticks-per-beat>
   <beats-per-bar>4</beats-per-bar>
-  <beat-divisor>8</beat-divisor>
+  <beat-divisor>2</beat-divisor>
  </properties>
  <state>
   <loop-start>0</loop-start>
-  <loop-end>2540571</loop-end>
+  <loop-end>2550857</loop-end>
   <punch-in>0</punch-in>
   <punch-out>0</punch-out>
  </state>
@@ -31,7 +31,9 @@ Audio file import "6_BTAADWAV.wav" on Jul 22 2015 16:59:03.
    <file name="5_Openhatwav.wav">../Audacity/32Bars-Beat/5_Openhatwav.wav</file>
    <file name="6_BTAADWAV.wav">../Audacity/32Bars-Beat/6_BTAADWAV.wav</file>
   </audio-list>
-  <midi-list/>
+  <midi-list>
+   <file name="Acid_Tricks-TB303_1-1.mid">Acid_Tricks-TB303_1-1.mid</file>
+  </midi-list>
  </files>
  <devices>
   <audio-engine>
@@ -47,16 +49,7 @@ Audio file import "6_BTAADWAV.wav" on Jul 22 2015 16:59:03.
     <input-panning>0</input-panning>
     <input-controllers/>
     <input-plugins/>
-    <input-connects>
-     <connect index="0">
-      <client>system</client>
-      <port>capture_1</port>
-     </connect>
-     <connect index="1">
-      <client>system</client>
-      <port>capture_2</port>
-     </connect>
-    </input-connects>
+    <input-connects/>
     <output-gain>1</output-gain>
     <output-panning>0</output-panning>
     <output-controllers/>
@@ -73,7 +66,7 @@ Audio file import "6_BTAADWAV.wav" on Jul 22 2015 16:59:03.
     </output-connects>
    </audio-bus>
    <audio-bus mode="duplex" name="DuckA">
-    <monitor>0</monitor>
+    <monitor>1</monitor>
     <channels>3</channels>
     <auto-connect>1</auto-connect>
     <input-gain>1</input-gain>
@@ -82,16 +75,20 @@ Audio file import "6_BTAADWAV.wav" on Jul 22 2015 16:59:03.
     <input-plugins/>
     <input-connects>
      <connect index="0">
-      <client>system</client>
-      <port>capture_1</port>
-     </connect>
-     <connect index="0">
       <client>Qtractor</client>
-      <port>DuckA/out_1</port>
+      <port>Compressed/out_1</port>
      </connect>
      <connect index="1">
-      <client>system</client>
-      <port>capture_2</port>
+      <client>Qtractor</client>
+      <port>Compressed/out_2</port>
+     </connect>
+     <connect index="2">
+      <client>Qtractor</client>
+      <port>Kick/out_2</port>
+     </connect>
+     <connect index="2">
+      <client>Qtractor</client>
+      <port>Kick/out_1</port>
      </connect>
     </input-connects>
     <output-gain>1</output-gain>
@@ -108,13 +105,12 @@ Audio file import "6_BTAADWAV.wav" on Jul 22 2015 16:59:03.
       <activated>1</activated>
       <configs/>
       <params>
-       <param index="5" name="Threshold">0.18</param>
-       <param index="6" name="Reduction">0.67</param>
-       <param index="7" name="Release Time">1</param>
+       <param index="5" name="Threshold">0.3</param>
+       <param index="6" name="Reduction">0.48</param>
+       <param index="7" name="Release Time">0.39</param>
       </params>
       <controllers/>
-      <editor-pos>950,23</editor-pos>
-      <form-pos>760,275</form-pos>
+      <editor-pos>1377,23</editor-pos>
      </plugin>
     </output-plugins>
     <output-connects>
@@ -122,13 +118,57 @@ Audio file import "6_BTAADWAV.wav" on Jul 22 2015 16:59:03.
       <client>system</client>
       <port>playback_1</port>
      </connect>
+     <connect index="1">
+      <client>system</client>
+      <port>playback_2</port>
+     </connect>
+    </output-connects>
+   </audio-bus>
+   <audio-bus mode="duplex" name="Kick">
+    <monitor>0</monitor>
+    <channels>2</channels>
+    <auto-connect>1</auto-connect>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins/>
+    <input-connects/>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins/>
+    <output-connects>
+     <connect index="0">
+      <client>Qtractor</client>
+      <port>DuckA/in_3</port>
+     </connect>
+     <connect index="1">
+      <client>Qtractor</client>
+      <port>DuckA/in_3</port>
+     </connect>
+    </output-connects>
+   </audio-bus>
+   <audio-bus mode="duplex" name="Compressed">
+    <monitor>0</monitor>
+    <channels>2</channels>
+    <auto-connect>1</auto-connect>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins/>
+    <input-connects/>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins/>
+    <output-connects>
      <connect index="0">
       <client>Qtractor</client>
       <port>DuckA/in_1</port>
      </connect>
      <connect index="1">
-      <client>system</client>
-      <port>playback_2</port>
+      <client>Qtractor</client>
+      <port>DuckA/in_2</port>
      </connect>
     </output-connects>
    </audio-bus>
@@ -150,7 +190,12 @@ Audio file import "6_BTAADWAV.wav" on Jul 22 2015 16:59:03.
      <audio-output-bus>0</audio-output-bus>
      <audio-output-auto-connect>1</audio-output-auto-connect>
     </input-plugins>
-    <input-connects/>
+    <input-connects>
+     <connect index="0">
+      <client>131:a2jmidid</client>
+      <port>0:port</port>
+     </connect>
+    </input-connects>
     <output-gain>1</output-gain>
     <output-panning>0</output-panning>
     <output-controllers/>
@@ -159,7 +204,19 @@ Audio file import "6_BTAADWAV.wav" on Jul 22 2015 16:59:03.
      <audio-output-bus>0</audio-output-bus>
      <audio-output-auto-connect>1</audio-output-auto-connect>
     </output-plugins>
-    <output-connects/>
+    <output-connects>
+     <connect index="0">
+      <client>131:a2jmidid</client>
+      <port>0:port</port>
+     </connect>
+     <connect index="0">
+      <client>130:LMMS</client>
+      <port>0:LB302</port>
+     </connect>
+    </output-connects>
+    <midi-map>
+     <midi-patch channel="0"/>
+    </midi-map>
    </midi-bus>
   </midi-engine>
  </devices>
@@ -169,13 +226,13 @@ Audio file import "6_BTAADWAV.wav" on Jul 22 2015 16:59:03.
    <horizontal-zoom>10</horizontal-zoom>
    <vertical-zoom>100</vertical-zoom>
    <snap-per-beat>4</snap-per-beat>
-   <edit-head>0</edit-head>
-   <edit-tail>2540571</edit-tail>
+   <edit-head>20571</edit-head>
+   <edit-tail>2550857</edit-tail>
   </view>
   <track type="audio" name="Atmosphere">
    <properties>
     <input-bus>Master</input-bus>
-    <output-bus>DuckA</output-bus>
+    <output-bus>Compressed</output-bus>
    </properties>
    <state>
     <mute>0</mute>
@@ -214,7 +271,7 @@ Audio file import "6_BTAADWAV.wav" on Jul 22 2015 16:59:03.
   <track type="audio" name="1_Kickwav">
    <properties>
     <input-bus>Master</input-bus>
-    <output-bus>DuckA</output-bus>
+    <output-bus>Kick</output-bus>
    </properties>
    <state>
     <mute>0</mute>
@@ -292,7 +349,7 @@ Audio file import "6_BTAADWAV.wav" on Jul 22 2015 16:59:03.
   <track type="audio" name="4_Closedhatwav">
    <properties>
     <input-bus>Master</input-bus>
-    <output-bus>DuckA</output-bus>
+    <output-bus>Master</output-bus>
    </properties>
    <state>
     <mute>0</mute>
@@ -405,6 +462,70 @@ Audio file import "6_BTAADWAV.wav" on Jul 22 2015 16:59:03.
     </clip>
    </clips>
    <plugins/>
+  </track>
+  <track type="midi" name="TB303-1">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+    <midi-omni>0</midi-omni>
+    <midi-channel>0</midi-channel>
+    <midi-bank-sel-method>0</midi-bank-sel-method>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#cc99ff</background-color>
+    <foreground-color>#664c7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="Acid_Tricks-TB303_1-1">
+     <properties>
+      <name>Acid_Tricks-TB303_1-1</name>
+      <start>20571</start>
+      <offset>0</offset>
+      <length>2520000</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>Acid_Tricks-TB303_1-1.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>435,114</editor-pos>
+      <editor-size>1236,600</editor-size>
+     </midi-clip>
+    </clip>
+    <clip name="Work_Harder-7_HIGHER_curve-1">
+     <properties>
+      <name>Work_Harder-7_HIGHER_curve-1</name>
+      <start>51429</start>
+      <offset>0</offset>
+      <length>0</length>
+      <gain>1</gain>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>Work_Harder-7_HIGHER_curve-1.mid</filename>
+      <track-channel>0</track-channel>
+      <revision>0</revision>
+     </midi-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <audio-output-bus-name></audio-output-bus-name>
+    <audio-output-bus>0</audio-output-bus>
+    <audio-output-auto-connect>1</audio-output-auto-connect>
+   </plugins>
   </track>
  </tracks>
 </session>

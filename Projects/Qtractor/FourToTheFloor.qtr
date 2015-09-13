@@ -1,7 +1,7 @@
 <!DOCTYPE qtractorSession>
-<session version="Qtractor 0.6.6.7git.43a033" name="FourToTheFloor">
+<session version="Qtractor 0.6.7.8git.c9c589" name="FourToTheFloor">
  <properties>
-  <directory>/home/jartaud/Music/Studio/Projects/Qtractor</directory>
+  <directory>/home/morice/Music/Studio/Projects/Qtractor</directory>
   <description>Audio file import "1_hihatclosedogg.wav" on Apr 28 2015 09:56:53.
 Audio file import "2_clapogg.wav" on Apr 28 2015 09:56:53.
 Audio file import "3_kickogg.wav" on Apr 28 2015 09:56:53.
@@ -19,17 +19,14 @@ Audio file import "3_kickogg.wav" on Apr 28 2015 09:56:53.
   <punch-out>0</punch-out>
  </state>
  <files>
-  <audio-list>
-   <file name="1_hihatclosedogg.wav">../lmms-projects/projects/ExportTest/1_hihatclosedogg.wav</file>
-   <file name="2_clapogg.wav">../lmms-projects/projects/ExportTest/2_clapogg.wav</file>
-   <file name="3_kickogg.wav">../lmms-projects/projects/ExportTest/3_kickogg.wav</file>
-  </audio-list>
+  <audio-list/>
   <midi-list/>
  </files>
  <devices>
   <audio-engine>
    <audio-control>
     <transport-mode>duplex</transport-mode>
+    <timebase>1</timebase>
    </audio-control>
    <audio-bus mode="duplex" name="Master">
     <monitor>0</monitor>
@@ -39,16 +36,7 @@ Audio file import "3_kickogg.wav" on Apr 28 2015 09:56:53.
     <input-panning>0</input-panning>
     <input-controllers/>
     <input-plugins/>
-    <input-connects>
-     <connect index="0">
-      <client>system</client>
-      <port>capture_1</port>
-     </connect>
-     <connect index="1">
-      <client>system</client>
-      <port>capture_2</port>
-     </connect>
-    </input-connects>
+    <input-connects/>
     <output-gain>1</output-gain>
     <output-panning>0</output-panning>
     <output-controllers/>

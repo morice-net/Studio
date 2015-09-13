@@ -1,7 +1,7 @@
 <!DOCTYPE qtractorSession>
-<session version="Qtractor 0.6.6.16git.25ea6c" name="DuckaTest">
+<session version="Qtractor 0.7.0git.bb751b" name="DuckaTest">
  <properties>
-  <directory>/home/jartaud/Music/Studio/Projects/Qtractor</directory>
+  <directory>/home/morice/Music/Studio/Projects/Qtractor</directory>
   <description>Audio file import "1_BTAAADAWAV.wav" on May 19 2015 15:04:07.
 Audio file import "1_LB.wav" on May 19 2015 15:04:37.
 </description>
@@ -20,7 +20,7 @@ Audio file import "1_LB.wav" on May 19 2015 15:04:37.
  <files>
   <audio-list>
    <file name="1_BTAAADAWAV.wav">../lmms-projects/projects/Export/1_BTAAADAWAV.wav</file>
-   <file name="1_LB.wav">../lmms-projects/projects/Export/1_LB.wav</file>
+   <file name="AaS_EchoProcB_140-04.wav">../../Samples/musicradar-alarm-siren-samples/musicradar-alarm-siren-samples/140bpm/AaS_EchoProcB_140-04.wav</file>
   </audio-list>
   <midi-list/>
  </files>
@@ -74,7 +74,7 @@ Audio file import "1_LB.wav" on May 19 2015 15:04:37.
       <preset></preset>
       <direct-access-param>-1</direct-access-param>
       <activate-subject-index>8</activate-subject-index>
-      <activated>1</activated>
+      <activated>0</activated>
       <configs/>
       <params>
        <param index="5" name="Threshold">0.32</param>
@@ -114,7 +114,12 @@ Audio file import "1_LB.wav" on May 19 2015 15:04:37.
      <audio-output-bus>0</audio-output-bus>
      <audio-output-auto-connect>1</audio-output-auto-connect>
     </input-plugins>
-    <input-connects/>
+    <input-connects>
+     <connect index="0">
+      <client>130:a2jmidid</client>
+      <port>0:port</port>
+     </connect>
+    </input-connects>
     <output-gain>1</output-gain>
     <output-panning>0</output-panning>
     <output-controllers/>
@@ -123,7 +128,12 @@ Audio file import "1_LB.wav" on May 19 2015 15:04:37.
      <audio-output-bus>0</audio-output-bus>
      <audio-output-auto-connect>1</audio-output-auto-connect>
     </output-plugins>
-    <output-connects/>
+    <output-connects>
+     <connect index="0">
+      <client>130:a2jmidid</client>
+      <port>0:port</port>
+     </connect>
+    </output-connects>
    </midi-bus>
   </midi-engine>
  </devices>
@@ -195,18 +205,18 @@ Audio file import "1_LB.wav" on May 19 2015 15:04:37.
    </view>
    <controllers/>
    <clips>
-    <clip name="1_LB">
+    <clip name="AaS_EchoProcB_140-04">
      <properties>
-      <name>1_LB</name>
+      <name>AaS_EchoProcB_140-04</name>
       <start>0</start>
       <offset>0</offset>
-      <length>1360029</length>
+      <length>329143</length>
       <gain>1</gain>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
      </properties>
      <audio-clip>
-      <filename>../lmms-projects/projects/Export/1_LB.wav</filename>
+      <filename>../../Samples/musicradar-alarm-siren-samples/musicradar-alarm-siren-samples/140bpm/AaS_EchoProcB_140-04.wav</filename>
       <time-stretch>1</time-stretch>
       <pitch-shift>1</pitch-shift>
      </audio-clip>

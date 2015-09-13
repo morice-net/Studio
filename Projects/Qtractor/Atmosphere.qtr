@@ -1,7 +1,7 @@
 <!DOCTYPE qtractorSession>
 <session version="Qtractor 0.6.7.19git.c9c69d" name="Atmosphere">
  <properties>
-  <directory>/home/jartaud/Music/Studio/Projects/Qtractor</directory>
+  <directory>/home/morice/Music/Studio/Projects/Qtractor</directory>
   <description>Audio file import "Magnetic Field White.wav" on Jul 21 2015 17:19:52.
 Audio file import "Magnetic Field White.wav" on Jul 21 2015 17:20:28.
 Audio file import "Magnetic Field Violet.wav" on Jul 21 2015 17:20:28.
@@ -93,16 +93,7 @@ Audio file import "1_Kickwav.wav" on Jul 21 2015 17:21:28.
     <input-panning>0</input-panning>
     <input-controllers/>
     <input-plugins/>
-    <input-connects>
-     <connect index="0">
-      <client>system</client>
-      <port>capture_1</port>
-     </connect>
-     <connect index="1">
-      <client>system</client>
-      <port>capture_2</port>
-     </connect>
-    </input-connects>
+    <input-connects/>
     <output-gain>1</output-gain>
     <output-panning>0</output-panning>
     <output-controllers/>
